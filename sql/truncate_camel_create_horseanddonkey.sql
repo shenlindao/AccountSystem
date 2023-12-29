@@ -1,0 +1,6 @@
+TRUNCATE Camel;
+
+CREATE TABLE HorseAndDonkey AS
+SELECT * FROM Horse
+UNION
+SELECT * FROM Donkey;
