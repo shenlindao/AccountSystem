@@ -10,7 +10,7 @@ import program.Classes.AnimalEnum;
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
         new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in, "UTF-8");
         ArrayList<String> commands = new ArrayList<>();
         commands.add("Сидеть");
         commands.add("Лежать");

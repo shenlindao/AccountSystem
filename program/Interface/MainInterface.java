@@ -24,6 +24,9 @@ public class MainInterface {
                 case 1:
                     NewAnimal.addNewAnimal(animalList, scanner);
                     break;
+                case 2:
+                    CommandsList.showCommandsList(animalList, scanner);
+                    break;
                 default:
                     System.out.println("\nХорошего дня!\n");
                     System.exit(0);

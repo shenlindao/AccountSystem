@@ -5,7 +5,7 @@ import java.util.GregorianCalendar;
 
 public class Animal {
     private int id;
-    private String name;
+    public String name;
     private ArrayList<String> commands = new ArrayList<>();
     private GregorianCalendar birthDate;
     private AnimalEnum type;
