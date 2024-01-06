@@ -10,10 +10,10 @@ public class Donkey extends Beast {
 
     @Override
     public String toString() {
-        return "Осёл:"
+        return "\nОсёл:"
         + "\nid: " + getId()
         + "\nкличка: " + getName()
         + "\nкомманды: " + super.getCommands()
-        + "\nдата рожденя: " +  super.getBirthDate();
+        + "\nдата рожденя: " +  super.getBirthDate() + "\n";
     }
 }

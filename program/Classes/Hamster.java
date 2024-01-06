@@ -10,10 +10,10 @@ public class Hamster extends Pet {
 
     @Override
     public String toString() {
-        return "Хомяк:"
+        return "\nХомяк:"
         + "\nid: " + getId()
         + "\nкличка: " + getName()
         + "\nкомманды: " + super.getCommands()
-        + "\nдата рожденя: " +  super.getBirthDate();
+        + "\nдата рожденя: " +  super.getBirthDate() + "\n";
     }
 }

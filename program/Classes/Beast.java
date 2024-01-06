@@ -10,10 +10,10 @@ public class Beast extends Animal {
 
     @Override
     public String toString() {
-        return "Вьючное животное:"
+        return "\nВьючное животное:"
         + "\nid: " + getId()
         + "\nкличка: " + getName()
         + "\nкомманды: " + super.getCommands()
-        + "\nдата рожденя: " +  super.getBirthDate();
+        + "\nдата рожденя: " +  super.getBirthDate() + "\n";
     }
 }

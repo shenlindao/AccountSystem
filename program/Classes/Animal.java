@@ -2,6 +2,7 @@ package program.Classes;
 
 import java.util.ArrayList;
 import java.util.GregorianCalendar;
+import java.util.List;
 
 public class Animal {
     private int id;
@@ -38,8 +39,8 @@ public class Animal {
         return commands.toString();
     }
 
-    public void setCommands(String commands) {
-        this.commands.add(commands);
+    public void setCommands(List<String> commands) {
+        this.commands.addAll(commands);
     }
 
     public GregorianCalendar getBirthDate() {
@@ -56,22 +57,22 @@ public class Animal {
 
     public void setType(String type) {
         switch (type.toLowerCase()) {
-            case ("Кошка"):
+            case ("кошка"):
                 this.type = AnimalEnum.CAT;
                 break;
-            case ("Собака"):
+            case ("собака"):
                 this.type = AnimalEnum.DOG;
                 break;
-            case ("Хомяк"):
+            case ("хомяк"):
                 this.type = AnimalEnum.HAMSTER;
                 break;
-            case ("Лошадь"):
+            case ("лошадь"):
                 this.type = AnimalEnum.HORSE;
                 break;
-            case ("Верблюд"):
+            case ("верблюд"):
                 this.type = AnimalEnum.CAMEL;
                 break;
-            case ("Осел"):
+            case ("осел"):
                 this.type = AnimalEnum.DONKEY;
                 break;
             default:
@@ -81,10 +82,13 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Животное:"
+        return "\nЖивотное:"
         + "\nid: " + getId()
+        + "\nтип: " + getType()
         + "\nкличка: " + getName()
         + "\nкомманды: " + commands.toString()
-        + "\nдата рожденя: " +  birthDate;
+        + "\nдата рожденя: " + getBirthDate().get(GregorianCalendar.DATE) + "/"
+        + getBirthDate().get(GregorianCalendar.MONTH) + "/"
+        + getBirthDate().get(GregorianCalendar.YEAR) + "\n";
     }
 }

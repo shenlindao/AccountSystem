@@ -10,10 +10,10 @@ public class Pet extends Animal {
 
     @Override
     public String toString() {
-        return "Домашнее животное:"
+        return "\nДомашнее животное:"
         + "\nid: " + getId()
         + "\nкличка: " + getName()
         + "\nкомманды: " + super.getCommands()
-        + "\nдата рожденя: " +  super.getBirthDate();
+        + "\nдата рожденя: " +  super.getBirthDate() + "\n";
     }
 }

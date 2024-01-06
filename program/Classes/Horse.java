@@ -10,10 +10,10 @@ public class Horse extends Beast {
 
     @Override
     public String toString() {
-        return "Лошадь:"
+        return "\nЛошадь:"
         + "\nid: " + getId()
         + "\nкличка: " + getName()
         + "\nкомманды: " + super.getCommands()
-        + "\nдата рожденя: " +  super.getBirthDate();
+        + "\nдата рожденя: " +  super.getBirthDate() + "\n";
     }
 }
