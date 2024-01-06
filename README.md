@@ -50,28 +50,28 @@
 
 8. Создать таблицы с иерархией из диаграммы в БД
 
-![Создать таблицы с иерархией из диаграммы в БД](https://github.com/shenlindao/control_work_part_3/blob/main/sql/create_tables_pets_and_beasts.sql)
+[Создать таблицы с иерархией из диаграммы в БД](https://github.com/shenlindao/control_work_part_3/blob/main/sql/create_tables_pets_and_beasts.sql)
 
 9. Заполнить низкоуровневые таблицы именами(животных), командами
 которые они выполняют и датами рождения
 
-![Заполнить низкоуровневые таблицы именами(животных), командами
+[Заполнить низкоуровневые таблицы именами(животных), командами
 которые они выполняют и датами рождения](https://github.com/shenlindao/control_work_part_3/blob/main/sql/insert_into_tables_pets_and_beasts.sql)
 
 10. Удалив из таблицы верблюдов, т.к. верблюдов решили перевезти в другой
 питомник на зимовку. Объединить таблицы лошади, и ослы в одну таблицу.
 
-![Удалив из таблицы верблюдов, т.к. верблюдов решили перевезти в другой
+[Удалив из таблицы верблюдов, т.к. верблюдов решили перевезти в другой
 питомник на зимовку](https://github.com/shenlindao/control_work_part_3/blob/main/sql/truncate_camel_create_horseanddonkey.sql)
 
-![Объединить таблицы лошади, и ослы в одну таблицу.](https://github.com/shenlindao/control_work_part_3/blob/main/sql/delete_from_camel_combine_hourse_dunkey.sql)
+[Объединить таблицы лошади, и ослы в одну таблицу.](https://github.com/shenlindao/control_work_part_3/blob/main/sql/delete_from_camel_combine_hourse_dunkey.sql)
 
 11. Создать новую таблицу “молодые животные” в которую попадут все животные старше 1 года, но младше 3 лет и в отдельном столбце с точностью до месяца подсчитать возраст животных в новой таблице
 
-![Создать новую таблицу “молодые животные”](https://github.com/shenlindao/control_work_part_3/blob/main/sql/create_table_yong_animals.sql)
+[Создать новую таблицу “молодые животные”](https://github.com/shenlindao/control_work_part_3/blob/main/sql/create_table_yong_animals.sql)
 
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
 прошлую принадлежность к старым таблицам.
 
-![Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
+[Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
 прошлую принадлежность к старым таблицам.](https://github.com/shenlindao/control_work_part_3/blob/main/sql/create_table_animals.sql)
